@@ -3,10 +3,10 @@ title: "集中力をmaxまで高めてくれるアプリ、Sukha（旧Centered�
 emoji: "💡"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ['macOS', 'AI']
-published: false
+published: true
 ---
 ## はじめに
-この記事では、タスク＆時間管理ツール[**Sukha**](https://www.thesukha.co/full)について、以前まで使用していたツールと違うところなども織り交ぜて、紹介します。
+この記事では、タスク＆時間管理ツール[Sukha](https://www.thesukha.co/full)について、以前まで使用していたツールと違うところなども織り交ぜて、紹介します。
 Sukhaは**スカ**と読み、サンスクリット語で幸福な空間という意味らしいです。
 もし記事内容に誤り等あれば、コメントいただけますと幸いです。
 
