@@ -3,7 +3,7 @@ title: "集中力をmaxまで高めてくれるアプリ、Sukha（旧Centered�
 emoji: "💡"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ['macOS', 'AI']
-published: true
+published: false
 ---
 ## はじめに
 この記事では、タスク＆時間管理ツール[**Sukha**](https://www.thesukha.co/full)について、以前まで使用していたツールと違うところなども織り交ぜて、紹介します。
