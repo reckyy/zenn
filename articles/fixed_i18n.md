@@ -5,3 +5,31 @@ type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Rails", "I18n"]
 published: false
 ---
+## はじめに
+現在、FBCで学習中の身です。
+RailsのI18n実装中に表題の不具合を発見し、issueを起票し修正されたのでその流れを記したいと思います。
+
+## 問題
+I18nを用いて、訳文に変数を渡そうとしていたのですが、、
+なぜか変数名がそのまま返ってきてしまいました。
+
+## いろいろ試してみる
+まず、consoleで確認。
+```ruby
+irb(main):001:0> I18n.t('controllers.default.update', object: Book.model_name.human)
+=> "%{object}の更新に成功しました。"
+```
+
+モデル名の翻訳はできてる。
+```ruby
+irb(main):003:0> Book.model_name.human
+=> "本"
+```
+
+普通に文字列を渡してもダメ。
+```ruby
+irb(main):002:0> I18n.t('controllers.default.update', object: '本')
+=> "%{object}の更新に成功しました。"
+```
+
+[Rails 国際化（I18n）API - Railsガイド (railsguides.jp)](https://railsguides.jp/i18n.html#%E8%A8%B3%E6%96%87%E3%81%AB%E5%A4%89%E6%95%B0%E3%82%92%E6%B8%A1%E3%81%99)を見ても`I18n::ReservedInterpolationKey例外が発生します。` って書いてるし、、
