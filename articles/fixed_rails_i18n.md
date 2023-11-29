@@ -65,3 +65,12 @@ RESERVED_KEYS = %i[
 
 立てたissueは以下。
 [Inquiry About Reserved Keywords When Passing Variables to Translations · Issue #49879 · rails/rails](https://github.com/rails/rails/issues/49879)
+
+## あっという間に修正。
+回答が来ました。以下ざっくり。
+
+> `scope`キーを使わないとエラーは出ないよ～。じゃないと値はそのまま返されるよ。
+`I18n.t('index', scope:'books.title', object:Book.model_namu.human)`のようにね。
+でもバグかもしれないから一旦確認するね～。
+
+後日見ると、やはりエラーを出した方がいいということで修正されてました。
