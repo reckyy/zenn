@@ -34,5 +34,12 @@ Mac版はすぐインストールできるのですが、Windows版は現在開�
 要は、仕事関連の作業しててふと趣味の調べ物をしたくなったら別ウィンドウを開く、といったことをしなくていいんです！
 仕事ならworkスペース、趣味ならhobbyスペース、といった具合に。
 以下を、見てもらった方が分かりやすいです。
+「space1」から「趣味」へ移っているのがお分かりいただけるかと思います。
 
-![](/images/arc_gifs/spaces.gif)
+[![Image from Gyazo](https://i.gyazo.com/a5faa242dfc6f644046ebdf2ab7c84ae.gif)](https://gyazo.com/a5faa242dfc6f644046ebdf2ab7c84ae)
+
+### favorites（お気に入り）
+**これが便利すぎてもう従来のブラウザには戻れないです。。**
+以下の画像の部分がfavoritesです。
+
+
