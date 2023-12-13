@@ -3,7 +3,7 @@ title: "かゆい所に手が届きまくりのブラウザ、Arc"
 emoji: "💎"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ['macOS', 'AI']
-published: true
+published: false
 ---
 
 この記事は、[フィヨルドブートキャンプ Part 1 Advent Calendar 2023 - Adventar](https://adventar.org/calendars/9142) 17日目の記事です。
