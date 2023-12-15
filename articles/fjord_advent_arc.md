@@ -72,3 +72,18 @@ split viewがdrag and dropでできるんです。そう、Arcならね。
 （optキーを押しながらクリックでもsplit viewになりますし、Cmd + Tで新しいタブをsplit viewにもできます。）
 
 ![Image from Gyazo](https://i.gyazo.com/f7d0145027ab667b0c93bdc2562b2653.gif =500x)
+
+### Easel
+なんでもできるボードです。Notionのブロックがないバージョン？を想像していただけたら。
+どこでも画像貼れるし、Webサイト埋め込めるし。
+ちなみにArcは毎週リリースノートを公開しているのですが、Easelで公開されています！
+
+https://arc.net/e/D25B2EEA-7506-4850-A169-3B2A00802889
+
+### ChatGPTにすぐに質問できる
+ChatGPTを開かなくても、Cmd + opt + GでChatGPTに質問できるコマンドバーが開けます！！
+コマンドバーで「gpt」+ tabでも可能です。
+こういうかゆいところに手が届きまくりなんですよね。。
+ただ、たまにGPT-3で回答されます。。（GPT-4利用者のみ）
+
+![Image from Gyazo](https://i.gyazo.com/50a4565fd1648f83697226efe1d641c5.gif =500x)
