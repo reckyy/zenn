@@ -8,8 +8,9 @@ published: false
 
 この記事は、[フィヨルドブートキャンプ Part 1 Advent Calendar 2023 - Adventar](https://adventar.org/calendars/9142) 17日目の記事です。
 
-昨日のPart1は[こちら]()。
-Part2は[]()でした。
+昨日はayuさんの[初学者が続けているテック系Podcast紹介！](https://ayu-0505.hatenablog.com/entry/2023/12/16/134921)
+と、
+odentakashiさんの[情熱プログラマー輪読会を開催してみて](https://odentakashi.github.io/2023/11/16/post11.html)でした。
 
 ## はじめに
 私はこれまでずっとChromeを使ってきました。ですが今年の春頃、新しいブラウザ**Arc**に乗り換えました！
