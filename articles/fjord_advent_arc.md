@@ -160,8 +160,9 @@ Cmd + opt + Nで即座にLittle Arcを開くことができます。
 ![](https://downloads.intercomcdn.com/i/o/703546622/d3b07ccc03e422ad7761c9b4/CleanShot+2023-04-01+at+10.51.19.gif)
 *https://resources.arc.net/en/articles/7183263-site-search-directly-search-any-website　より引用*
 
-## 困ったことがあれば、、
+## コンタクトも取りやすい？
 コマンドバーに表示されている、「Ask the Arc Team a Question」をクリックすれば運営にコンタクトを取るフォームが出てきます！
+項目は質問、フィードバック、バグ報告から選べます。
 折角なので、僕も質問してみました。
 内容は、Arcを使っているときだけショートカットで絵文字ビューアがでてこなくなった、というものです。
 もし回答が来たら、この記事に追記しようと思います。
