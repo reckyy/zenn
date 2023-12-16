@@ -6,11 +6,13 @@ topics: ["macOS", "AI"]
 published: false
 ---
 
+:::message
 この記事は、[フィヨルドブートキャンプ Part 1 Advent Calendar 2023 - Adventar](https://adventar.org/calendars/9142) 17日目の記事です。
 
 昨日はayuさんの[初学者が続けているテック系Podcast紹介！](https://ayu-0505.hatenablog.com/entry/2023/12/16/134921)
 と、
 odentakashiさんの[情熱プログラマー輪読会を開催してみて](https://odentakashi.github.io/2023/11/16/post11.html)でした。
+:::
 
 ## はじめに
 私はこれまでずっとChromeを使ってきました。ですが今年の春頃、新しいブラウザ**Arc**に乗り換えました！
@@ -54,8 +56,8 @@ Mac版はすぐインストールできるのですが、~~Windows版は現在�
 要は、仕事関連の作業しててふと趣味の調べ物をしたくなったら別ウィンドウを開く、といったことをしなくていい、と言うイメージ？
 （自分はspacesを一つしか使用していないのでわかりません、、🫠）
 仕事ならworkスペース、趣味ならhobbyスペース、といった具合に。
-以下を、見てもらった方が分かりやすいです。
-「space1」から「趣味」へ移っているのがお分かりいただけるかと思います。
+以下はswipeでspacesを切り替えている動画です。
+「space1」から「趣味」へspacesを移しています。（見辛くてごめんなさい、、！🙏
 
 
 ![Image from Gyazo](https://i.gyazo.com/a5faa242dfc6f644046ebdf2ab7c84ae.gif =600x)
@@ -160,7 +162,9 @@ Cmd + opt + Nで即座にLittle Arcを開くことができます。
 
 ## 困ったことがあれば、、
 コマンドバーに表示されている、「Ask the Arc Team a Question」をクリックすれば運営にコンタクトを取るフォームが出てきます！
-折角なので、僕も質問してみました。もし回答が来たら、この記事に追記しようと思います。
+折角なので、僕も質問してみました。
+内容は、Arcを使っているときだけショートカットで絵文字ビューアがでてこなくなった、というものです。
+もし回答が来たら、この記事に追記しようと思います。
 
 ![Image from Gyazo](https://i.gyazo.com/acf0f1cff1d54103d068d7dfc738d381.png)
 
