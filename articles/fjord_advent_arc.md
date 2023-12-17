@@ -7,7 +7,7 @@ published: true
 ---
 
 :::message
-この記事は、[フィヨルドブートキャンプ Part 1 Advent Calendar 2023 - Adventar](https://adventar.org/calendars/9142) 17日目の記事です。
+この記事は、[フィヨルドブートキャンプ Part 2 Advent Calendar 2023 - Adventar](https://adventar.org/calendars/9309) 17日目の記事です。
 
 昨日はayuさんの[初学者が続けているテック系Podcast紹介！](https://ayu-0505.hatenablog.com/entry/2023/12/16/134921)
 と、
