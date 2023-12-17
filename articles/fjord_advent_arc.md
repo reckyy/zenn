@@ -57,7 +57,7 @@ Mac版はすぐインストールできるのですが、~~Windows版は現在�
 （自分はspacesを一つしか使用していないのでわかりません、、🫠）
 仕事ならworkスペース、趣味ならhobbyスペース、といった具合に。
 以下はswipeでspacesを切り替えている動画です。
-「space1」から「趣味」へspacesを移しています。（見辛くてごめんなさい、、！🙏
+「space1」から「趣味」へspacesを移しています。（見辛くてごめんなさい、、！🙏）
 
 
 ![Image from Gyazo](https://i.gyazo.com/a5faa242dfc6f644046ebdf2ab7c84ae.gif =600x)
