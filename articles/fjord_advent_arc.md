@@ -85,7 +85,7 @@ pinned tabsは各スペースに依存します。
 これで、タブ開きすぎ問題が解消されます！着ない服と一緒です。**本当に必要なものだけあればいいのです。**
 
 追加方法は、単純に画像のエリアにdragするか、pinしたいタブを開いてcmd + dです！
-[Auto Archive: Clean as you go](https://resources.arc.net/en/articles/6701333-auto-archive-clean-as-you-go)
+https://resources.arc.net/en/articles/6701333-auto-archive-clean-as-you-go
 
 ### split view
 split viewがdrag and dropでできるんです。そう、Arcならね。😐
@@ -96,7 +96,7 @@ split viewがdrag and dropでできるんです。そう、Arcならね。😐
 ### Easel
 なんでもできるボードです。Notionのブロックがないバージョン？を想像していただけたら。
 どこでも画像貼れるし、Webサイト埋め込めるし。
-ちなみにArcは毎週リリースノートを公開しているのですが、Easelで作られています！
+Arcは毎週リリースノートを公開しているのですが、Easelで作られています！
 よければ見てみてください。
 
 https://arc.net/e/D25B2EEA-7506-4850-A169-3B2A00802889
@@ -105,8 +105,23 @@ https://arc.net/e/D25B2EEA-7506-4850-A169-3B2A00802889
 ChatGPTを開かなくても、Cmd + opt + GでChatGPTに質問できるコマンドバーが開けます！！
 コマンドバーで「gpt」+ tabでも可能です。
 こういうかゆいところに手が届きまくりなんですよね。。
-ただ、たまにGPT-3で回答されます。。（GPT-4利用者のみ）
+ただ、GPT-4なのに稀にGPT-3で回答されます。。（僕だけかもしれませんが。。）
 
+![Image from Gyazo](https://i.gyazo.com/09d45f1f5350d0a46f3c098ad9bf30ff.gif)
+
+これは最近追加された**Arc MAX**に含まれている5つの機能のうちの一つです！
+他にはこんな機能があります。
+
+- Ask on Page
+Cmd + F で開いているページ内容について質問できます。追加当初は、単純に検索したい時にも質問になってしまって煩わしかったです。今は、検索結果が見つからなかった時のみ質問になるように改善されました！アプデが早くて素晴らしいです。。
+- 5 second preview
+リンク先にポインタを置きShiftを押すと、そのままリンク先の内容が映し出されます。これはどういうケースを想定して作ったのかわからないので、使っていません。。🫠
+- Tidy Tab Titles
+pinned tabsのタイトルを自動的に要約してくれます。
+- Tidy Downloads
+ダウンロードファイルのタイトルを自動設定してくれます！これは結構便利です。
+
+https://arc.net/max
 
 
 ## 個人的に気に入ってる点
