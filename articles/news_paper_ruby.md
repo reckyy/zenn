@@ -3,7 +3,7 @@ title: "Newspaperを読んでみた"
 emoji: "🫡"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Rails", "Ruby"]
-published: false
+published: true
 ---
 
 ## Newspaper Gemとは
