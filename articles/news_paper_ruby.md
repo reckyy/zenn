@@ -37,7 +37,7 @@ https://github.com/fjordllc/bootcamp
 https://railsguides.jp/active_record_callbacks.html#%E5%88%A9%E7%94%A8%E5%8F%AF%E8%83%BD%E3%81%AA%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%90%E3%83%83%E3%82%AF
 
 ただこのコールバックには問題が多いです。
-- fat modelになりやすい。
+- Fat Modelになりやすい。
 - コールバックの実行順序の仕様が複雑。
 - 依存関係が見えにくい。
 - 特定のタイミングを設定しにくい（コールバックに条件分岐を入れることもできるが、アンチパターン）。
