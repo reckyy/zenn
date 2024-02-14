@@ -94,7 +94,7 @@ Newspaper.publish(:user_create, payload)
 サブスクライブしているクラスがデータを受け取り、`call`メソッド内で特定の処理を実行します。
 
 これにより、イベント駆動型プログラミングが容易になり、拡張性も高まります！
-例えば`user.create`した後のイベントが以下だったとします。（極端かつ適当な例ですが。。）
+例えば`user.save`した後のイベントが以下だったとします。（極端かつ適当な例ですが。。）
 ```ruby
 def after_create(user)
   userにメールを送る処理
@@ -103,7 +103,7 @@ def after_create(user)
   userに1000ギフトを送る処理
 end
 ```
-従来の方法だと一律でコールバックが発生してしまったり、気軽に`User.create`できなくなったり大変です。
+従来の方法だと一律でコールバックが発生してしまったり、気軽に`user.save`できなくなったり大変です。
 これがNewspaperを使うと、
 ```ruby
 # app/notifiers/user_mail_notifier.rb
