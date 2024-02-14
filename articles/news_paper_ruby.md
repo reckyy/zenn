@@ -8,6 +8,8 @@ published: false
 
 ## Newspaper Gemとは
 新聞じゃないです。Gemの話です。（ごめんなさい）
+https://github.com/komagata/newspaper
+
 READMEによると、
 
 > Newspaper is a small library that provides a pub/sub mechanism for ruby.
