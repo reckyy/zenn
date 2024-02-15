@@ -144,10 +144,8 @@ end
 
 # app/controllers/users_controller.rb
 def create
-  user = User.create(user_params)
-  if user.persisted?
-    Newspaper.publish(:user_create, user)
-  end
+  @user = User.create(user_params)
+  Newspaper.publish(:user_create, @user) #テストしたいときはコメントアウト
 end
 ```
 のように柔軟に管理することができます。
