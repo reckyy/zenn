@@ -2,7 +2,7 @@
 title: Auth.js
 emoji: "🫡"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["nextjs","認証", "authjs", "Tech"]
+topics: ["nextjs","認証", "authjs"]
 published: true
 ---
 ## はじめに
