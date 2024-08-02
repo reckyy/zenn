@@ -1,5 +1,5 @@
 ---
-title: Auth.js
+title: Auth.jsを使ったNext.jsの認証チェックとセッション拡張
 emoji: "🫡"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["nextjs","認証", "authjs"]
