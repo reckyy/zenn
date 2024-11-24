@@ -17,6 +17,8 @@ published: true
 
 https://blog.taskchute.cloud/the-three-taskchute-basics/
 
+https://tsundoku.tech
+
 私は最近、このメソッドを知るきっかけとなった以下の本を読みました。
 
 ![先送り0](/images/sakiokuri0.jpeg)

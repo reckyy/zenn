@@ -54,7 +54,7 @@ export default async function Page() {
 
 
 ## Sessionの拡張
-最初は Rails API に email を送っていましたが、毎回メールアドレスを送るのは手間だと感じたので、Session に id を追加しました。ここでは、Google の ID を使用しています。
+Session に id を追加しました。ここでは、Google の ID を使用しています。
 
 
 ```ts: src/auth.ts
