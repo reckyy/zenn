@@ -3,7 +3,7 @@ title: "newspaperからActiveSupport::Notificationsへ移行する流れを調�
 emoji: "📰"
 type: "tech"
 topics: ["rails", "activesupport", "pubsub"]
-published: false
+published: true
 ---
 
 # はじめに
@@ -55,8 +55,7 @@ https://railsguides.jp/active_support_instrumentation.html#%E3%82%A4%E3%83%99%E3
 | handler 引数 | `handler.call(payload)` | `handler.call(name, started, finished, id, payload)` | `payload` 以外は基本不要 |
 
 ## おまけ : なぜ`to_prepare`を使うのか？
-実際に、FBC代表のkomagataさんが移行を行なった[PR](https://github.com/fjordllc/bootcamp/pull/8835)を眺めてみました。
-主な変更は上記に記載した通りでしたが、一つ気になるコードがありました。
+FBCリポジトリの[PR](https://github.com/fjordllc/bootcamp/pull/8835)を眺めてみたところ、主な変更は上記に記載した通りでしたが、一つ気になるコードがありました。
 ```diff ruby:config/initializers/active_support_notifications.rb
 # frozen_string_literal: true
 
