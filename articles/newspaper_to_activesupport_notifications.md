@@ -3,7 +3,7 @@ title: "newspaperからActiveSupport::Notificationsへ移行する流れを調�
 emoji: "📰"
 type: "tech"
 topics: ["rails", "activesupport", "pubsub"]
-published: true
+published: false
 ---
 
 # はじめに
