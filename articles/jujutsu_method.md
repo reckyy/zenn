@@ -22,7 +22,7 @@ Jujutsuを網羅的に解説する記事ではありませんが、記事を読�
 
 ### 動作環境
 
-- macOS 15.x（Apple Silicon）
+- macOS 15.7.7（M1）
 - Jujutsu (jj) 0.41.0
 - jjui 0.10.3
 - gh CLI 2.92.0
@@ -38,7 +38,7 @@ Gitとの違いを意識した最小限の説明なので、ここを押さえ�
 
 Jujutsuには、Gitとは別の名前で似たような概念がいくつかあります。対応表にするとこんな感じです。
 
-| Git | Jujutsu | 補足（Jujutsu） |
+| Git | Jujutsu | 補足 |
 |---|---|---|
 | commit | change | Jujutsuの作業の最小単位 |
 | branch | bookmark | 特定のchangeを指す名前付きポインタ |
@@ -50,7 +50,7 @@ Jujutsuには、Gitとは別の名前で似たような概念がいくつかあ�
 このうち、特に押さえておきたい違いが2つあります。
 
 **changeは何度でも書き換えられる**
-Gitのcommitは一度作ったらハッシュが固定で、書き換えるには`--amend`や`rebase -i`が必要でした。Jujutsuのchangeは何度でも気軽に書き換えられるもので、`@`の中身を編集して保存すれば自動で反映されます。これが履歴を後から整える操作の手軽さにつながります。
+Gitでは一度commitすると書き換えるには`--amend`や`rebase -i`が必要でした。Jujutsuのchangeは何度でも気軽に書き換えられるもので、`@`の中身を編集して保存すれば自動で反映されます。これが履歴を後から整える操作の手軽さにつながります。
 
 **bookmarkは自動で動かない**
 Gitのbranchは現在のbranchに新しいcommitを積むと、branchも一緒に先に進みます。Jujutsuのbookmarkはそういった自動追従をしません。bookmarkは「特定のchangeに付けておく目印（ラベル）」であって、自分で`jj bookmark move`のようなコマンドで動かさない限り元の位置のままです。
@@ -99,12 +99,12 @@ $ jj describe -m "feat: Postに公開状態を追加"
 | ツール | 役割 | 入れ方 |
 |---|---|---|
 | Jujutsu | Jujutsu本体 | [公式: Installation and setup](https://docs.jj-vcs.dev/latest/install-and-setup/) |
-| jjui | jjの履歴表示や操作に便利なTUI | [GitHub: idursun/jjui](https://github.com/idursun/jjui) |
+| jjui | Jujutsuの履歴表示や操作に便利なTUI | [GitHub: idursun/jjui](https://github.com/idursun/jjui) |
 | Ghostty | シンプルで軽量なターミナル | [公式](https://ghostty.org/) |
 | gh CLI | GitHubのPR操作などに使う（Jujutsuに必須ではない） | [公式](https://cli.github.com/) |
 
 どのツールもインストールから初期設定まで簡単です。
-jjもjjuiも『じゅじゅちゅ！』内でおすすめされていたのをそのまま採用しただけなので、ほかにも同機能のツールはあります。それぞれ好みのツールを使用してください。
+jjuiもGhosttyも『じゅじゅちゅ！』内でおすすめされていたのをそのまま採用しただけなので、ほかにも同機能のツールはあります。それぞれ好みのツールを使用してください。
 
 ### jjuiとは
 
@@ -125,7 +125,7 @@ jjもjjuiも『じゅじゅちゅ！』内でおすすめされていたのを�
 
 ### 作業前にbookmark名を考えないでいい
 まずは作業に取り掛かりたいのに、branchの命名を最初に考えないといけないのは面倒です。まずは手を動かしてやる気を上げていきたい時にはより問題です。
-Jujutsuなら、bookmark名を考えるのは作業の途中でも作業終了後でもいつでもいいので、ノイズがなくなった感覚がして好みです。（この記事内で「好みです」多用しすぎかもしれない）
+Jujutsuなら、bookmark名を考えるのは作業の途中でも作業終了後でもいつでもいいので、ノイズがなくなった感覚がして好みです。
 
 ### ステージングエリア不要で`git add`しなくていい
 
